@@ -15,3 +15,20 @@ This repository provides the Windows drivers and setup instructions for the Wemo
 3. In the "Additional Boards Manager URLs" field, add the following URL:
    ```plaintext
    https://arduino.esp8266.com/stable/package_esp8266com_index.json
+   ```
+4. Click **OK** to save.
+5. Go to **Tools > Board > Boards Manager**.
+6. Search for "esp8266" and install the package.
+
+### 3. Select Wemos D1 in Arduino IDE
+1. Go to **Tools > Board > ESP8266 Boards**.
+2. Select **Wemos D1 R1** or **Wemos D1 R2**, depending on your board.
+3. Configure the correct COM port under **Tools > Port**.
+
+### 4. Test Your Setup
+1. Connect the Wemos D1 to your PC via USB.
+2. Open **File > Examples > Basic > Blink**.
+3. Upload the sketch and verify the LED blinks.
+
+## Resources
+- [ESP8266 Arduino Core](https://github.com/esp8266/Arduino)
